@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "_id": 1234,
+      "title": "Exploring Snowflake Algorithm for Global Unique Primary Keys in Distributed Systems",
+      "description": "What is the snowflake algorithm? This article will take you to know",
+      "likes": 63,
+      "comments": 52,
+      "createdAt": "Jun 2",
+      "updatedAt": "Jun 2",
+      "author": {
+        "_id": 2424,
+        "name": "Jenn",
+        "bio": "Ph.D in Computer Science, Master in distributed systems",
+        "avatar": ""
+      },
+      "id": "f3c7"
+    },
+    {
+      "id": "38fa",
+      "_id": 1720432266274,
+      "title": "new post",
+      "description": "new post",
+      "content": "new post",
+      "likes": 0,
+      "comments": 0,
+      "createdAt": "2024-07-08T09:51:06.274Z",
+      "updatedAt": "2024-07-08T09:51:06.274Z",
+      "author": {
+        "_id": 1720432266274,
+        "name": "Jenn",
+        "bio": "Ph.D in Computer Science, Master in distributed systems",
+        "avatar": ""
+      }
+    }
+  ]
+}
