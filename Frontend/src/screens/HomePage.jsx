@@ -7,6 +7,7 @@ const HomePage = ({ articles, setArticles, isLoading, setIsLoading }) => {
   useEffect(() => {
     const onLoadingArticles = async () => {
       const fetchedArticles = await getArticles();
+      console.log(fetchedArticles);
       setArticles(fetchedArticles);
       setIsLoading(false);
       return;

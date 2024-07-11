@@ -1,6 +1,6 @@
 import client from "./client";
 
-const url = "http://localhost:3500/articles";
+const url = "http://localhost:3000/articles";
 
 export const getArticles = async () => {
   try {

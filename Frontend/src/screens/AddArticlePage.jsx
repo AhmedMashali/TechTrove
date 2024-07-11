@@ -15,20 +15,9 @@ const AddArticlePage = ({ isLoading, setIsLoading, articles, setArticles }) => {
     try {
       setIsLoading(true);
       const newArticle = {
-        _id: new Date().getTime(),
         title,
         description,
         content,
-        likes: 0,
-        comments: 0,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        author: {
-          _id: new Date().getTime(),
-          name: "Jenn",
-          bio: "Ph.D in Computer Science, Master in distributed systems",
-          avatar: "",
-        },
       };
 
       await addArticle(newArticle);
